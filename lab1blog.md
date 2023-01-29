@@ -2,7 +2,12 @@
 
 # VSCode
 
-I already had VSCode installed so this step wasn't applicable for me.
+1. Go to the [VSCode website](https://code.visualstudio.com/) and follow the instructions there to download it onto your system
+2. Make sure you download the appropriate file based on your OS (e.g. Mac OS, Windows, Linux, etc.)
+3. Once you download it, it should look something like this
+![image](https://user-images.githubusercontent.com/35607410/215349670-da49b151-be8c-4dbc-b96c-290ecbdd582e.png)
+
+4. The view of the VSCode window may differ depending on the settings in your own VSCode
 
 # Remotely Connecting
 
