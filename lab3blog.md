@@ -5,7 +5,8 @@
 StringServer code:
 ![image](https://user-images.githubusercontent.com/35607410/215358740-b7fc687e-17c1-48e9-9be1-3b87da40af11.png)
 
-lmaooo
+
+
 
 First add-message:
 ![image](https://media.discordapp.net/attachments/1033930534004477983/1069377704060792982/image.png)
