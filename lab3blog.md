@@ -5,6 +5,8 @@
 StringServer code:
 ![image](https://user-images.githubusercontent.com/35607410/215358740-b7fc687e-17c1-48e9-9be1-3b87da40af11.png)
 
+
+
 First add-message:
 ![image](https://media.discordapp.net/attachments/1033930534004477983/1069377704060792982/image.png)
 1. The handleRequest and start methods are called
@@ -22,13 +24,13 @@ Second add-message:
 1. Failure inducing input for buggy code:
 ![image](https://user-images.githubusercontent.com/35607410/215367864-0bfdd764-4c43-4b33-ac90-ec683d416b17.png)
 buggy code:
-<code>
+'''
     static void reverseInPlace(int[] arr) {
       for(int i = 0; i < arr.length; i += 1) {
         arr[i] = arr[arr.length - i - 1];
       }
     }
-</code>
+'''
 
 2. Input that doesn't create failure for same buggy code above:
 ![image](https://user-images.githubusercontent.com/35607410/215368203-3f10259f-e803-45ba-9496-973cf7c271b8.png)
@@ -37,15 +39,15 @@ buggy code:
 ![image](https://user-images.githubusercontent.com/35607410/215368350-125a3497-2067-4793-9739-c19ddda1cf0c.png)
 
 4. The buggy vs fixed code:
-<code>
+'''
     static void reverseInPlace(int[] arr) {
       for(int i = 0; i < arr.length; i += 1) {
         arr[i] = arr[arr.length - i - 1];
       }
     }
-</code>
+'''
   
-<code>
+'''
   static void reverseInPlace(int[] arr) {
     int[] temp=new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -56,7 +58,7 @@ buggy code:
     }
     
   }
-</code>
+'''
 
   The problem with reverseInPlace is that the first half copies the reverse of the second half, and then the second half repeats since it just copies the overwritten values in the first half. For example, {1,2,3} becomes {1,2,1}. The fixed code just creates a temporary new array so that no values get overwritten.
 
