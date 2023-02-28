@@ -18,4 +18,7 @@
 6. Compiled and ran testers again and both tests worked. Keys pressed: ```<up><up><enter>```, ```<up><up><enter>```. Both commands were 2 up in the history so I pressed up arrow twice then enter.
   ![image](https://user-images.githubusercontent.com/35607410/221738438-5b2eedb2-b679-4cf1-9fbc-df98ced439b0.png)
 
-7. 
+7. Commited and pushed changes, typed them on my own.
+
+  ![image](https://user-images.githubusercontent.com/35607410/221741016-dedc74a1-a8ed-4a21-8b02-4bc306fe5fe7.png)
+  
