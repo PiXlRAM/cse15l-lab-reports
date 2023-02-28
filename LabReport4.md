@@ -11,6 +11,7 @@
   ![image](https://user-images.githubusercontent.com/35607410/221738002-d374162c-e5b8-496a-9c2a-2b3bf13b6ddb.png)
 
 5. Change index1+=1 to index2+=1 to fix error.
+
   ![image](https://user-images.githubusercontent.com/35607410/221738143-8f03ca5c-4b1a-491e-8c6b-6c24bdd191c2.png)
   ![image](https://user-images.githubusercontent.com/35607410/221738195-579679e6-c9e9-4e5d-9ceb-1dbe39cc6c64.png)
 
