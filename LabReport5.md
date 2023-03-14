@@ -1,0 +1,80 @@
+## Lab Report 5
+
+# Grep Command with Various Options
+The grep command is a powerful tool used to search for a specific pattern in a file or directory. It provides several options to perform different types of searches. In this section, we will discuss four options -c, -h, -l, and -o with their respective examples.
+
+# 1. Option -c
+The -c option is used to count the number of matches found in the file or directory.
+
+Example 1: Count matches in a file
+```
+grep -c 'impose' ./written_2/non-fiction/OUP/Abernathy/ch1.md
+```
+![image](https://user-images.githubusercontent.com/35607410/224911771-1d66b5ab-dba7-4419-9f6e-e1007106ff9c.png)
+
+This command counts the number of occurrences of the word "apple" in the fruits.txt file located in the written_2 directory.
+
+Example 2: Count matches in all files
+```
+grep -c 'and' ./written_2/non-fiction/OUP/Abernathy/*
+```
+![image](https://user-images.githubusercontent.com/35607410/224911950-38ac5b8b-f835-4494-8e4f-520a9299dff3.png)
+
+This command searches for the word "mango" in all files in the written_2 directory and counts the number of matches found in each file.
+
+2. Option -h
+The -h option is used to suppress the display of filenames when searching in multiple files.
+
+Example 1: Search in a file without showing filename
+```
+grep -h 'impose' ./written_2/non-fiction/OUP/Abernathy/ch1.md
+```
+![image](https://user-images.githubusercontent.com/35607410/224912055-d9797516-825e-48a8-b2b3-818c11e9684e.png)
+
+This command searches for the word "orange" in the fruits.txt file located in the written_2 directory and suppresses the display of the filename.
+
+Example 2: Search in all files without showing filenames
+```
+grep -h 'and' ./written_2/non-fiction/OUP/Abernathy/*
+```
+![image](https://user-images.githubusercontent.com/35607410/224912273-e94b2bd7-4611-4cd0-acf1-82e933625560.png)
+
+This command searches for the word "banana" in all files in the written_2 directory and suppresses the display of filenames.
+
+3. Option -l
+The -l option is used to display only the filenames of the matching files.
+
+Example 1: Search for files containing a pattern
+```
+grep -l 'and' ./written_2/non-fiction/OUP/Abernathy/*
+```
+![image](https://user-images.githubusercontent.com/35607410/224912411-fd910217-50c1-4b70-875f-4360bb391c08.png)
+
+This command searches for the word "lemon" in all files in the written_2 directory and displays only the filenames of the matching files.
+
+Example 2: Search for files containing a pattern in a directory
+```
+grep -l 'impose' ./written_2/non-fiction/OUP/Abernathy/ch1.md
+```
+![image](https://user-images.githubusercontent.com/35607410/224912498-eb0ab866-d4fb-4723-9e16-3d16ec17a53f.png)
+
+This command searches for the word "orange" in all files in the written_2 directory and displays only the filenames of the matching files.
+
+4. Option -o
+The -o option is used to display only the matching part of the pattern.
+
+Example 1: Display matching part of a pattern in a file
+```
+grep -o 'impose' ./written_2/non-fiction/OUP/Abernathy/ch1.md
+```
+![image](https://user-images.githubusercontent.com/35607410/224913743-8c4401e8-3085-497a-80b5-9f63a51af031.png)
+
+This command searches for the word "banana" in the fruits.txt file located in the written_2 directory and displays only the matching part of the pattern.
+
+Example 2: Display matching part of a pattern in all files
+```
+grep -o 'and' ./written_2/non-fiction/OUP/Abernathy/*
+```
+![image](https://user-images.githubusercontent.com/35607410/224913932-a609d306-fa09-4bee-bb74-9ebb1016f629.png)
+
+This command searches for the word "kiwi" in all files in the written_2 directory and displays only the matching part of the pattern in each file.
